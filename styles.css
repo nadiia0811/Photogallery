@@ -737,19 +737,22 @@ form p  {
         width: 100%;
         max-width: 608px;
     }
-
     .social-contacts {
+        width: 100%;
+    }
+    .contact-us__container-social {
+        width: 100%;
+    }
+    .contact-us {
         width: 100%;
     }
     .contact-us__discount {
         height: 280px;
         margin-bottom: 30px;
     }
-
     .contact-us__discount img {
         height: 100%;
     }
-
     .contact-us__container-bottom {
         display: flex;
         align-items: center;
@@ -760,7 +763,6 @@ form p  {
         width: 100%;
         object-fit: cover;
     }
-
     .contact-us__container-bottom-img {
         display: none;
     }
@@ -783,6 +785,12 @@ form p  {
     .contact-us__discount img {
         width: 100%;
         object-fit: cover;
+    }
+    .container-social-item {
+        font-size: 18px;
+    }
+    .container-social-item p {
+        margin-left: 50px;
     }
 }
 
@@ -821,7 +829,7 @@ form p  {
     }
     .container-social-item p {
         font-size: 18px;
-        margin-left: 45px;
+        margin-left: 60px;
     }    
 }
 
