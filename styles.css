@@ -507,6 +507,20 @@ form p  {
     .form {
         margin-left: 30px;
     }
+
+    .social-contacts__item {
+        width: 300px;
+        height: 50px;
+    }
+
+    .social-contacts__item img {
+        width: 35px;
+    }
+
+    .social-contacts__item p {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }
 
 
@@ -656,10 +670,10 @@ form p  {
     .contact-us__container {
         width: 100%;
     }
-    .contact-us__container-bottom {/**/
+    .contact-us__container-bottom {
         height: 530px;
     }
-    .form { /**/
+    .form { 
         height: 480px;
     }
     .contact-us__container-bottom-img {
@@ -796,6 +810,40 @@ form p  {
         width: 100%;
         object-fit: cover;
     }
+}
+
+@media screen and (max-width: 398px) {
+    .container-social-item {
+        height: 50px;
+    }
+    .container-social-item img {
+        width: 35px;
+    }
+    .container-social-item p {
+        font-size: 18px;
+        margin-left: 45px;
+    }    
+}
+
+@media screen and (max-width: 346px){
+    .social-contacts__item {
+       display: flex;
+       align-items: center;
+       justify-content: space-between; 
+       height: 50px;
+       font-size: 18px;
+       line-height: 25px;
+       padding: 18px 0;
+       color: #fff;
+
+    }
+    .social-contacts__item p {
+        margin-left: 30px; 
+    }
+
+    .social-contacts__item-text {
+        font-weight: 400;
+    } 
 }
 
 @media screen and (width: 320px) {
