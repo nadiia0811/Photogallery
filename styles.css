@@ -854,6 +854,12 @@ form p  {
     } 
 }
 
+@media screen and (max-width: 334px) {
+    .container-social-item p {
+        margin-left: 30px;
+    }
+}
+
 @media screen and (width: 320px) {
    .content {
       width: 320px;
