@@ -884,11 +884,17 @@ form p  {
        display: block;
      }
     .w320-images__btn {
-       width: 100px;
-       height: 25px;
+       width: 56px;
+       height: 19px;
+       padding-top: 5px;
+       padding-bottom: 5px;
+       color:#878787;
+       font-size: 8px;
+       background-color: transparent;
+       gap: 2px;
+       border: none;
        display: flex;
        justify-content: space-between;
-       border: 1px solid #f5f5f5;
        align-items: center;
        cursor: pointer;
     }
